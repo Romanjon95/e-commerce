@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Online store">
+  <link rel="stylesheet" href="style.css">
+  <title>Online store</title>
+</head>
+<body>
+  <section class="section">
+    <!-- Cart bag -->
+    <div class="cart-bag">
+      <img class="xmark" src="/icons/xmark-solid.svg" alt="">
+        <section class="featured-bag">
+          <h2 class="featured__title">Your Bag</h2>
+          <div class="productsContainer">
+          </div>
+          <div class="lowerbag">
+            <h2 class="total">Total : 0</h2>
+            <button class="featured__btn">CHECKOUT</button>
+          </div>
+        </section>
+    </div>
+    <!-- header -->
+    <header class="header">
+      <div>
+        <ul class="navbar">
+          <li class="navbar__li"><a class="navbar__a active" href="index.html">Home</a></li>
+          <li class="navbar__li"><a class="navbar__a" href="shop.html">Products</a></li>
+          <li class="navbar__li"><a class="navbar__a" href="about.html">About</a></li>
+        </ul>
+      </div>
+      <a class="header__a" href="#"><p class="header__logo">comfy</p></a>
+      <a class="header__a header__cart" href=""><img class="bucket icon" src="/icons/add-cart.png" alt="cart"></a>
+    </header>
+    <main class="main">
+      <h1 class="main__title">Rest, Relax, Unwind</h1>
+      <h2 class="main__subtitle">Embrace your choices - we do</h2>
+      <a href="shop.html">
+        <button class="main__btn">SHOW NOW</button>
+      </a>
+    </main>
+  </section>
+  <!-- Products -->
+  <section class="featured">
+    <h2 class="featured__title"><span class="span">/</span> Featured</h2>
+    <div class="products-container">
+      <div class="product" data-id="01">
+        <img class="product__img" src="/img/chair_1.jpg" alt="chair">
+        <div class="product__description">
+          <p class="product__text">High-Back Bench</p>
+          <p class="product__price">9</p>
+        </div>
+        <!-- counter -->
+        <div class="product__counter-wrapper counter">
+          <div class="product__control counter__minus" data-action="minus">-</div>
+          <div class="product__current counter__number" data-counter="">1</div>
+          <div class="product__control counter__minus" data-action="plus">+</div>
+        </div>
+        <img data-cart class="icon" src="icons/cart-plus-solid.svg" alt="cart">
+      </div>
+      <div class="product"  data-id="10">
+        <img class="product__img" src="/img/sofa.jpg" alt="sofa">
+        <div class="product__description">
+          <p class="product__text">Utopia Sofa</p>
+          <p class="product__price">239</p>
+        </div>
+        <!-- counter -->
+        <div class="product__counter-wrapper counter">
+          <div class="product__control" data-action="minus">-</div>
+          <div class="product__current" data-counter="">1</div>
+          <div class="product__control" data-action="plus">+</div>
+        </div>
+        <img data-cart class="icon" src="icons/cart-plus-solid.svg" alt="cart">
+      </div>
+      <div class="product" data-id="11">
+        <img class="product__img" src="/img/entertainment.jpg" alt="entertainment">
+        <div class="product__description">
+          <p class="product__text">Entertainment Center</p>
+          <p class="product__price">29</p>
+        </div>
+        <!-- counter -->
+        <div class="product__counter-wrapper counter">
+          <div class="product__control" data-action="minus">-</div>
+          <div class="product__current" data-counter="">1</div>
+          <div class="product__control" data-action="plus">+</div>
+        </div>
+        <img data-cart class="icon" src="icons/cart-plus-solid.svg" alt="cart">
+      </div>
+    </div>
+    <!-- btn -->
+    <a href="shop.html">
+      <button class="featured__btn">ALL PRODUCTS</button>
+    </a>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>

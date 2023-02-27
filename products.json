@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "title": "High-Back Bench",
+    "imgSrc": "chair_1.jpg",
+    "price": 9,
+    "company": "IKEA"
+  },
+  {
+    "id": 2,
+    "title": "Albany Table",
+    "imgSrc": "wooden_table.jpg",
+    "price": 79,
+    "company": "Marcos"
+  },
+  {
+    "id": 3,
+    "title": "Soft Sofa",
+    "imgSrc": "blue_sofa.jpg",
+    "price": 99,
+    "company": "Caressa"
+  },
+  {
+    "id": 4,
+    "title": "Dining Table",
+    "imgSrc": "dining_table.jpg",
+    "price": 129,
+    "company": "Liddy"
+  },
+  {
+    "id": 5,
+    "title": "Bookshelf",
+    "imgSrc": "bookshelf.jpg",
+    "price": 19,
+    "company": "IKEA"
+  },
+  {
+    "id": 6,
+    "title": "Sofa Set",
+    "imgSrc": "sofa_set.jpg",
+    "price": 229,
+    "company": "Marcos"
+  },
+  {
+    "id": 7,
+    "title": "Wooden Table",
+    "imgSrc": "table.jpg",
+    "price": 149,
+    "company": "Caressa"
+  },
+  {
+    "id": 8,
+    "title": "Big Sofa",
+    "imgSrc": "big_sofa.jpg",
+    "price": 529,
+    "company": "Liddy"
+  },
+  {
+    "id": 9,
+    "title": "Emperor Bed",
+    "imgSrc": "bed.jpg",
+    "price": 429,
+    "company": "IKEA"
+  },
+  {
+    "id": 10,
+    "title": "Utopia Sofa",
+    "imgSrc": "sofa.jpg",
+    "price": 239,
+    "company": "Marcos"
+  },
+  {
+    "id": 11,
+    "title": "Entertainment Center",
+    "imgSrc": "entertainment.jpg",
+    "price": 29,
+    "company": "IKEA"
+  },
+  {
+    "id": 12,
+    "title": "Big Lamp",
+    "imgSrc": "Lamp.jpg",
+    "price": 19,
+    "company": "IKEA"
+  }
+]
