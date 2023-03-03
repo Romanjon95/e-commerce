@@ -151,7 +151,7 @@ body {
 }
 
 .product:hover {
-  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+  box-shadow: 20px 20px 30px 30px rgba(0, 0, 0, 0.06);
 }
 
 .product {
@@ -224,6 +224,12 @@ body {
   padding-left: 10px;
 }
 
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .input {
   width: 110px;
   height: 25px;
@@ -231,6 +237,15 @@ body {
   border: none;
   border-radius: 3px;
   margin-bottom: 10px;
+}
+.search-btn {
+  width: 50px;
+  height: 20px;
+  background-color: rgb(203, 203, 203);
+  color: rgb(72, 72, 101);
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 5px;
 }
 
 .input-range {
@@ -247,6 +262,7 @@ body {
 .shop-text {
   color: rgb(72, 72, 101);
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .shop-value {
@@ -300,6 +316,8 @@ body {
     height: 15px;
   }
 }
+
+// cart section
 
 .cart-bag {
   position: fixed;
